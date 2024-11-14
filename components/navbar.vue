@@ -50,6 +50,13 @@
                   >Login</NuxtLink
                 >
               </li>
+              <li>
+                <NuxtLink
+                  to="/x-app/home"
+                  class="flex items-center justify-between text-gray-500 text-sm lg:text-base font-medium hover:text-indigo-700 transition-all duration-500 mb-2 lg:mr-6 md:mb-0 md:mr-3"
+                  >X app</NuxtLink
+                >
+              </li>
               <!-- navbar next -->
             </ul>
           </div>
