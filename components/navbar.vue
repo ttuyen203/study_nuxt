@@ -36,6 +36,20 @@
                   >Employee Management</NuxtLink
                 >
               </li>
+              <li>
+                <NuxtLink
+                  to="/register"
+                  class="flex items-center justify-between text-gray-500 text-sm lg:text-base font-medium hover:text-indigo-700 transition-all duration-500 mb-2 lg:mr-6 md:mb-0 md:mr-3"
+                  >Register</NuxtLink
+                >
+              </li>
+              <li>
+                <NuxtLink
+                  to="/login"
+                  class="flex items-center justify-between text-gray-500 text-sm lg:text-base font-medium hover:text-indigo-700 transition-all duration-500 mb-2 lg:mr-6 md:mb-0 md:mr-3"
+                  >Login</NuxtLink
+                >
+              </li>
               <!-- navbar next -->
             </ul>
           </div>
