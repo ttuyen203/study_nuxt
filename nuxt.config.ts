@@ -10,4 +10,14 @@ export default defineNuxtConfig({
     },
   },
   plugins: ["~/plugins/vue3-toastify.js", "~/plugins/sweetalert2.js"],
+  modules: ["@vee-validate/nuxt"],
+  veeValidate: {
+    autoImports: true,
+    componentNames: {
+      Form: "VeeForm",
+      Field: "VeeField",
+      FieldArray: "VeeFieldArray",
+      ErrorMessage: "VeeErrorMessage",
+    },
+  },
 });

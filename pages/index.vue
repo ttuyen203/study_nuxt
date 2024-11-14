@@ -1,7 +1,7 @@
-<script setup>
-import Demo from "~/components/demo.vue";
-</script>
+<script setup></script>
 
 <template>
-  <div class="px-4 py-2">Hello World</div>
+  <div>
+    <div class="px-4 py-2">Hello World</div>
+  </div>
 </template>
