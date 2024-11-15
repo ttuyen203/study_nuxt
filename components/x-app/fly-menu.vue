@@ -58,14 +58,14 @@ const props = defineProps({
         </div>
 
         <div class="mt-8 flex flex-col gap-6">
-          <div class="flex items-center gap-4 cursor-pointer">
+          <NuxtLink to="/x-app/user/132" class="flex items-center gap-4 cursor-pointer">
             <!-- icon -->
             <div>
               <img :src="icon_profile" alt="" />
             </div>
             <!--  -->
             <p class="text-[#141619] text-lg font-normal">Profile</p>
-          </div>
+          </NuxtLink>
 
           <div class="flex items-center gap-4 cursor-pointer">
             <!-- icon -->

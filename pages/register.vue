@@ -6,9 +6,9 @@ import { toast } from "vue3-toastify";
 import axios from "axios";
 
 const validate = yup.object({
-  username: yup.string().required("Required").min(6, "Name need 6 char"),
-  email: yup.string().required("Required").email("Email not ivalid"),
-  password: yup.string().required("Required").min(6, "Password need 6 char"),
+  username: yup.string().required("* Required").min(6, "* Name need 6 char"),
+  email: yup.string().required("* Required").email("* Email not ivalid"),
+  password: yup.string().required("* Required").min(6, "* Password need 6 char"),
 });
 
 const onSubmit = async (values) => {
