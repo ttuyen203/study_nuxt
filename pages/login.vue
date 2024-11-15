@@ -7,8 +7,8 @@ import baseUrl from "~/configs/baseUrl";
 import Cookies from "js-cookie";
 
 const validate = yup.object({
-  email: yup.string().email("Email is not valid").required("Required"),
-  password: yup.string().required("Required").min(6, "Password need 6 char"),
+  email: yup.string().email("Email is not valid").required("* Required"),
+  password: yup.string().required("* Required").min(6, "* Password need 6 char"),
 });
 
 const handleLogin = async (values) => {

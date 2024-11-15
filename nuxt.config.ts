@@ -9,7 +9,7 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  plugins: ["~/plugins/vue3-toastify.js", "~/plugins/sweetalert2.js"],
+  plugins: ["~/plugins/vue3-toastify.js", "~/plugins/sweetalert2.js", "~/plugins/element-plus.js"],
   modules: ["@vee-validate/nuxt"],
   veeValidate: {
     autoImports: true,

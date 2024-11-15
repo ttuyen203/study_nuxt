@@ -12,6 +12,7 @@
   "dependencies": {
     "@vee-validate/nuxt": "^4.14.7",
     "axios": "^1.7.7",
+    "element-plus": "^2.8.7",
     "js-cookie": "^3.0.5",
     "nuxt": "^3.14.159",
     "sweetalert2": "^11.14.5",
