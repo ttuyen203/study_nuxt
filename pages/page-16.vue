@@ -1,6 +1,11 @@
 <script setup>
-// image
+// framework
 import { ref } from "vue";
+
+import { Swiper, SwiperSlide } from "swiper/vue";
+import "swiper/css";
+
+// image
 import image_1 from "../assets/images/image_1.svg";
 import image_2 from "../assets/images/image_2.svg";
 import image_3 from "../assets/images/image_3.svg";
@@ -23,13 +28,10 @@ import tiktok from "../assets/images/tiktok.svg";
 import facebook from "../assets/images/facebook.svg";
 import instagram from "../assets/images/instagram.svg";
 import x from "../assets/images/x.svg";
-import shoppe from "../assets/images/shopee.svg";
+import shopee from "../assets/images/shopee.svg";
 import call from "../assets/images/call.svg";
 import cart from "../assets/images/cart.svg";
-
-// framework
-import { Swiper, SwiperSlide } from "swiper/vue";
-import "swiper/css";
+import play from "../assets/images/play.svg";
 
 // logic
 const isOpen = ref(false);
@@ -263,20 +265,7 @@ const changeLanguage = (lang) => {
           <div
             class="absolute left-[157px] bottom-[75.19px] p-2.5 flex justify-center items-center w-[60px] h-[60px] gap-2.5 border border-[#ffffff33] bg-[#ffffff33] rounded-full cursor-pointer"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="25"
-              viewBox="0 0 24 25"
-              fill="none"
-            >
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M6 6.25357C6 3.76455 8.85628 2.35812 10.8291 3.8757L18.5489 9.81397C20.11 11.0149 20.11 13.3688 18.5489 14.5697L10.8291 20.508C8.85628 22.0256 6 20.6191 6 18.1301V6.25357Z"
-                fill="white"
-              />
-            </svg>
+            <img :src="play" alt="" />
           </div>
         </div>
 
@@ -498,9 +487,9 @@ const changeLanguage = (lang) => {
             <div class="flex p-[10px] items-start gap-2.5">
               <img :src="x" alt="" class="cursor-pointer" />
             </div>
-            <!-- icon shoppe -->
+            <!-- icon shopee -->
             <div class="flex p-[10px] items-start gap-2.5">
-              <img :src="shoppe" alt="" class="cursor-pointer" />
+              <img :src="shopee" alt="" class="cursor-pointer" />
             </div>
           </div>
         </div>
